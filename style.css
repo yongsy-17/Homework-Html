@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+
+    padding: 0;
+}
+body{
+    
+    display: flex;
+    flex-direction: column;
+}
+nav{ 
+    background-color: rgb(3, 3, 68);
+    flex: 0.5;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    padding: 15px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: rgb(59, 8, 107);
+    /* flex: 1; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url(./image/city-6156596_1280.jpg);
+    background-size: cover;
+    
+    
+}
+header h1{
+    color: white;
+    font-size: 50px;
+}
+header p {
+    color: white;
+    font-size: 20px;
+}
+header button{
+    background-color: aqua;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+section{
+    display: flex;
+    flex: 5;
+}
+aside{
+    flex: 1;
+    padding: 3px;
+}
+main{
+    flex: 4;
+    padding: 3px;
+}
+footer{
+    background-color: rgb(36, 16, 92);
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
